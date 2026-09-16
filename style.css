@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* TYPOGRAFI */
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: rgb(197, 12, 111);
+}
+
+h2 {
+    color: rgb(197, 12, 111);
+    font-size: 2.3rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+h5 {
+    font-size: 1.3rem;
+}
+
+h6 {
+    font-size: 1.3rem;
+}
+
+/* ELEMENT */
+body {
+    background-color: rgb(241, 196, 230);
+}
+
+footer {
+    background-color: rgb(244, 139, 211);
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+    line-height: 1.5em;
+}
+
+main {
+     max-width: 600px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: rgb(177, 246, 240);
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+section img {
+    width: 100%;
+}
+
+#main-page {
+    text-align: center;
+}
+
+
+/* NAVIGATION */
+nav {
+    background-color:rgb(244, 139, 211);
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+}
+
+nav li {
+    display: inline;
+    padding-right: 20px;
+}
+
+nav a.active {
+    font-weight: bold;
+    color: rgb(177, 246, 240);
+    text-decoration: underline;
+}
+
+section a.active {
+    color:rgb(240, 14, 135);
+}
+
+/* LÄNKAR */
+a {
+    color: rgb(247, 245, 246);
+    text-decoration: none ;
+}
+
+a:hover {
+    text-decoration: underline ;
+}

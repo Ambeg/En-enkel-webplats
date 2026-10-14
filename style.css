@@ -31,9 +31,16 @@ h6 {
 }
 
 /* ELEMENT */
-body {
-    background-color: rgb(241, 196, 230);
-}
+ body { 
+     background-color: rgb(241, 196, 230); 
+} 
+
+ header {
+    background-image: url(img/havtorn.jpg);
+    background-size: cover;
+    background-position: center;
+    
+ } 
 
 footer {
     background-color: rgb(244, 139, 211);
@@ -68,6 +75,7 @@ section img {
 /* NAVIGATION */
 nav {
     background-color:rgb(244, 139, 211);
+    margin-top: 130px;
 }
 
 nav ul {
